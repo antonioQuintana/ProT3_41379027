@@ -4,47 +4,53 @@ namespace App\Controllers;
 
 class Home extends BaseController
 {
-    public function index(): string
+    public function index()
     {
-        return view('front/head_view') .
-               view('front/navbar_view') .
-               view('front/principal_ultimo') .
-               view('front/footer_view');
+        $data['titulo']='pagina principal';
+        echo view('front/head_view',$data);
+        echo view('front/navbar_view');
+        echo view('front/principal_ultimo');
+        echo view('front/footer_view');
     }
-    public function registrarse(): string
+    public function registrarse()
     {
-        return view('front/head_view') .
-               view('front/navbar_view') .
-               view('front/register_view') .
-               view('front/footer_view');
+        $data['titulo']='registrarse';
+        echo view('front/head_view', $data) ;
+        echo view('front/navbar_view') ;
+        echo view('front/register_view') ;
+        echo view('front/footer_view');
     }
-    public function ingresar(): string
+    public function ingresar()
     {
-        return view('front/head_view') .
-               view('front/navbar_view') .
-               view('front/ingresar_view') .
-               view('front/footer_view');
+        $data['titulo']='ingresar';
+        echo view('front/head_view', $data) ;
+        echo view('front/navbar_view') ;
+        echo view('front/ingresar_view') ;
+        echo view('front/footer_view');
     }
-    public function pilotos(): string
+    public function pilotos()
     {
-        return view('front/head_view') .
-               view('front/navbar_view') .
-               view('front/pilotos_view') .
-               view('front/footer_view');
+        $data['titulo']='pilotos';
+        echo view('front/head_view', $data) ;
+        echo view('front/navbar_view') ;
+        echo view('front/pilotos_view') ;
+        echo view('front/footer_view');
     }
-    public function acerca_de(): string
+    public function acerca_de()
     {
-        return view('front/head_view') .
-               view('front/navbar_view') .
-               view('front/acerca_de_view') .
-               view('front/footer_view');
+        $data['titulo']='acerca de';
+        echo view('front/head_view', $data) ;
+        echo view('front/navbar_view') ;
+        echo view('front/acerca_de_view') ;
+        echo view('front/footer_view');
     }
-    public function contacta(): string
+    public function contacta()
     {
-        return view('front/head_view') .
-               view('front/navbar_view') .
-               view('front/contacta_view') .
-               view('front/footer_view');
+        $data['titulo']='contacta con nosotros';
+        echo view('front/head_view', $data) ;
+        echo view('front/navbar_view') ;
+        echo view('front/contacta_view') ;
+        echo view('front/footer_view');
     }
  
 }
