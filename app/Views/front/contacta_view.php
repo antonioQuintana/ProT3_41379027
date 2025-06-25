@@ -1,3 +1,5 @@
+<!--Vista del card para contactar con el creador de la web-->
+
 <div class="container">
 <div class="row text-white my-4">
     <h3 class="text-center">Contacta con nosotros</h3>

@@ -3,6 +3,8 @@ namespace App\Controllers;
 use CodeIgniter\Controller;
 use App\Models\usuario_model;
 
+//funciones del login, y autenticación de usuarios, logout
+
 class login_controller extends BaseController
 {
     public function index()
@@ -36,6 +38,7 @@ class login_controller extends BaseController
             $verygy_pass = password_verify($password, $pass);
             if($verygy_pass){
                 $ses_data = [
+                    'id_usuario' => $data['id_usuario'], 
                     'usuario' => $data['nombre_ape'],
                     'email' => $data['email'],
                     'perfil_id' => $data['perfil_id'],
