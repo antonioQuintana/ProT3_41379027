@@ -11,7 +11,7 @@
     >
       <div class="container-fluid">
         <div>
-          <a class="navbar-brand" href="https://moodle-telco.unne.edu.ar/login/index.php">
+          <a class="navbar-brand" href="https://www.youtube.com/@LaFormuladeDAVIDPEROGIL">
             <img src="assets/img/logo-f1news.jpg" height="50" class="rounded"/>
           </a>
         </div>
@@ -37,8 +37,12 @@
                 <a class="nav-link active" aria-current="page" href='index'>Principal</a>
               </li>
               <li class="nav-item">
+                <a class="nav-link active" href="<?php echo base_url('pilotos'); ?>"> Pilotos</a>
+              </li>
+              <li class="nav-item">
                 <a class="nav-link active" href="<?php echo base_url('/logout'); ?>"> Cerrar Sesión</a>
               </li>
+              
               <li class="nav-item dropdown">
                 <a
                   class="nav-link dropdown-toggle"
@@ -50,7 +54,7 @@
                   Más info
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href='pilotos'>Pilotos</a></li>
+                  
                   <li>
                     <a class="dropdown-item" href="https://alangulotv.cloud/canal/multi-f1/">Mira la F1 EN VIVO</a>
                   </li>
@@ -83,6 +87,9 @@
                 <a class="nav-link active" aria-current="page" href='index'>Principal</a>
               </li>
               <li class="nav-item">
+                <a class="nav-link active" href="<?php echo base_url('pilotos'); ?>"> Pilotos</a>
+              </li>
+              <li class="nav-item">
                 <a class="nav-link active" href="<?php echo base_url('/logout'); ?>"> Cerrar Sesión</a>
               </li>
               <li class="nav-item dropdown">
@@ -96,7 +103,6 @@
                   Más info
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href='pilotos'>Pilotos</a></li>
                   <li>
                     <a class="dropdown-item" href="https://alangulotv.cloud/canal/multi-f1/">Mira la F1 EN VIVO</a>
                   </li>
@@ -133,6 +139,9 @@
             <li class="nav-item">
               <a class="nav-link active" href='ingresar'> Ingresar</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="<?php echo base_url('pilotos'); ?>"> Pilotos</a>
+              </li>
             <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
@@ -144,7 +153,6 @@
                 Más info
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href='pilotos'>Pilotos</a></li>
                 <li>
                   <a class="dropdown-item" href="https://alangulotv.cloud/canal/multi-f1/">Mira la F1 EN VIVO</a>
                 </li>

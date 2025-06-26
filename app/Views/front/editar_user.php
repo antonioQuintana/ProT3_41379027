@@ -17,6 +17,10 @@
             <input type="email" class="form-control" id="email" name="email" value="<?= esc($usuario['email']) ?>" readonly>
         </div>
         <div class="mb-3">
+            <label for="nacimiento" class="form-label">Fecha de nacimiento</label>
+            <input type="date" class="form-control" id="nacimiento" name="nacimiento" value="<?= esc($usuario['nacimiento']) ?>">
+        </div>
+        <div class="mb-3">
             <label for="perfil_id" class="form-label">Perfil</label>
             <select class="form-control" id="perfil_id" name="perfil_id">
                 <option value="1" <?= $usuario['perfil_id']==1?'selected':''; ?>>Admin</option>

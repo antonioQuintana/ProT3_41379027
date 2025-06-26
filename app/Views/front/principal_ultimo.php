@@ -2,6 +2,9 @@
     <div class="row mt-4">
         <h3 class="text-center text-white ">Página de Noticias de Fórmula 1</h3>
     </div>
+    <div class="container fluid mt-3 mb-3 text-center">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ptYOyLREE2w?si=26a1Cy1G3RK0V4le" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
     <div class="row my-3">
         <div class="border rounded-4 bg-light p-2 shadow-lg mx-auto" style="max-width: 1100px;">
             <div id="carouselExampleAutoplaying" class="carousel slide border " data-bs-ride="carousel">
