@@ -60,7 +60,7 @@
                   </li>
                   <li><hr class="dropdown-divider" /></li>
                   <li>
-                    <a class="dropdown-item" href='contacta'>Contactá con nosotros</a>
+                    <a class="dropdown-item" href="<?php echo base_url('contacta'); ?>">Contactá con nosotros</a>
                   </li>
                 </ul>
               </li>
@@ -84,7 +84,7 @@
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href='index'>Principal</a>
+                <a class="nav-link active" aria-current="page" href="<?php echo base_url('index'); ?>">Principal</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link active" href="<?php echo base_url('pilotos'); ?>"> Pilotos</a>
@@ -108,7 +108,7 @@
                   </li>
                   <li><hr class="dropdown-divider" /></li>
                   <li>
-                    <a class="dropdown-item" href='contacta'>Contactá con nosotros</a>
+                    <a class="dropdown-item" href="<?php echo base_url('contacta'); ?>">Contactá con nosotros</a>
                   </li>
                 </ul>
               </li>
@@ -131,13 +131,13 @@
           <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href='index'>Principal</a>
+              <a class="nav-link active" aria-current="page" href="<?php echo base_url('index'); ?>">Principal</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href='registrarse'> Registrarse</a>
+              <a class="nav-link active" href="<?php echo base_url('registrarse'); ?>"> Registrarse</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href='ingresar'> Ingresar</a>
+              <a class="nav-link active" href="<?php echo base_url('ingresar'); ?>"> Ingresar</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link active" href="<?php echo base_url('pilotos'); ?>"> Pilotos</a>
@@ -158,7 +158,7 @@
                 </li>
                 <li><hr class="dropdown-divider" /></li>
                 <li>
-                  <a class="dropdown-item" href='contacta'>Contactá con nosotros</a>
+                  <a class="dropdown-item" href="<?php echo base_url('contacta'); ?>">Contactá con nosotros</a>
                 </li>
               </ul>
             </li>
